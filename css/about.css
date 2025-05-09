@@ -1,0 +1,44 @@
+/* Локальные стили для страницы About */
+
+/* Стили для изображения героя */
+.hero-image {
+    border: 3px solid #8B0000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.hero-image:hover {
+    transform: scale(1.02);
+}
+
+/* Стили для цитат */
+.quote {
+    font-style: italic;
+    border-left: 4px solid #8B0000;
+    padding-left: 15px;
+    margin: 20px 0;
+    background-color: rgba(139, 0, 0, 0.05);
+    padding: 15px;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Стили для ссылки "Далее" */
+.next-link {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #8B0000, #A52A2A);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.next-link:hover {
+    background: linear-gradient(to right, #A52A2A, #8B0000);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
